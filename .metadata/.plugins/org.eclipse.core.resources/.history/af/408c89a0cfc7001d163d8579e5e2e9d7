@@ -1,0 +1,11 @@
+package Haunter;
+
+public class ArrayPractice {
+
+	public static void main(String[] args) {
+		String[] G = {"John", "bananas", "my dick"};
+		
+		System.out.print(G[1]);
+	}
+
+}

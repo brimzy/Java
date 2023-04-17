@@ -1,0 +1,38 @@
+package Library;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+class Library {
+	private String author;
+	private String title;
+	private String price;
+	
+	public Library(String author, String title, double price) {
+		this.author = author;
+		this.title = title;
+		this.price = price;
+	}
+	
+	public String getAuthor() {
+		return author;
+	}
+	
+	public String getTitle() {
+		return title;
+	}
+	 
+	public double getPrice() {
+		return price;
+	}
+	
+	@Override
+	public String toString( ) {
+		return "Book{" +
+				"author='" + author + '\'' +
+				", title='" + title + '\'' +
+				", price=" + price +
+				'}';
+	}
+}
